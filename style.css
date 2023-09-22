@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("bg.045edac4468e3ab87a833664e263f543.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    font-size: 6vh;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.box{
+    display: flex;
+    font-size: 3vh;
+}
+
+.box>div{
+    margin-left: 1vw;
+}
+
+input{
+    background: transparent;
+    border: none;
+    border-bottom: white 1px solid;
+
+}
+
+button{
+    background: transparent;
+    border: none;
+    padding: 1vh;
+    font-size: 3vh;
+}
+
+button:hover{
+    cursor: pointer;
+    border: white 1px solid;
+    border-radius: 3px;
+}
+
+.middle{
+    padding-top: 10vh;
+}
+
+input::placeholder {
+    font-size: 3vh;
+}
+
+input{
+    width: 20vw;
+    height: 4vh;
+    font-size: 3vh;
+}
