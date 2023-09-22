@@ -1,12 +1,6 @@
 async function getData(location){
     const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=85dcd6fa2c774e63ba084711232209&q=${location}`);
     const data = await response.json();
-    console.log(data);
-    console.log(data.location.name);
-    console.log(data.current.temp_c);
-    console.log(data.current.feelslike_c);
-    console.log(data.current.humidity);
-    console.log(data.current.wind_kph);
     return{
         name: data.location.name,
         temp: data.current.temp_c,
